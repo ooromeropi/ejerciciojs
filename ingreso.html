@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--desde el head vinculamos el archivo css con la etiqueta link-->
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    
+<!--iniciamos el menu de la pagina con la etiqueta nav-->
+
+   
+    <div class="container">
+      <h1>Ejercicio 12012022</h1>
+    
+       <div>
+             <form>
+                 <section class="section-flex">
+                        <article class="element-form">
+                            <div class="label">
+                                <label for="">Genero</label>
+                            </div>
+                            <select name="Genero" id="Genero">
+                                <option value="-">Seleccione una opcion</option>
+                                <option value="1">Mujer</option>
+                                <option value="2">Hombre</option>
+                                
+                            </select>
+
+                        </article>
+
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Nombres</label>
+                            </div>
+                            <input type="text" name="Nombres" id="Nombres" placeholder="Ingresa tu nombre completo">
+                        </article>
+
+                                      
+                        <article class="element-form">
+                            <div class="label">
+                                  <label for="">Edad</label>
+                            </div>
+                          <input type="number" name="Edad" id="Edad">
+                        </article>
+
+                        
+
+                        <article class="btn-article">
+                            <button type="submit" onclick="enviar()">Enviar</button>
+                        </article>
+
+                 </section>
+             </form>
+        </div>
+
+    </div>
+
+
+<!--el footer es para crear el pie de pagina-->
+<footer>
+    <p>Creado por Oscar Romero</p>
+</footer>
+
+   <script src="./js/javascript.js"></script>
+
+</body>
+</html>
